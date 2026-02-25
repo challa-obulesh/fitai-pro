@@ -1,0 +1,221 @@
+{
+    "pushup": {
+        "met": 3.8,
+        "category": "Strength",
+        "muscle_group": "Chest, Triceps, Shoulders",
+        "keywords": [
+            "pushup",
+            "push-up",
+            "push up"
+        ],
+        "emoji": "💪"
+    },
+    "pullup": {
+        "met": 4.0,
+        "category": "Strength",
+        "muscle_group": "Back, Biceps",
+        "keywords": [
+            "pullup",
+            "pull-up",
+            "pull up",
+            "chinup",
+            "chin-up"
+        ],
+        "emoji": "🏋️"
+    },
+    "squat": {
+        "met": 5.0,
+        "category": "Strength",
+        "muscle_group": "Quads, Glutes, Hamstrings",
+        "keywords": [
+            "squat",
+            "squats"
+        ],
+        "emoji": "🦵"
+    },
+    "deadlift": {
+        "met": 6.0,
+        "category": "Strength",
+        "muscle_group": "Back, Glutes, Hamstrings",
+        "keywords": [
+            "deadlift",
+            "dead lift"
+        ],
+        "emoji": "🏋️"
+    },
+    "bench press": {
+        "met": 5.0,
+        "category": "Strength",
+        "muscle_group": "Chest, Triceps",
+        "keywords": [
+            "bench press",
+            "bench"
+        ],
+        "emoji": "💪"
+    },
+    "plank": {
+        "met": 4.0,
+        "category": "Core",
+        "muscle_group": "Core, Abs",
+        "keywords": [
+            "plank"
+        ],
+        "emoji": "🧘"
+    },
+    "crunch": {
+        "met": 2.8,
+        "category": "Core",
+        "muscle_group": "Abs",
+        "keywords": [
+            "crunch",
+            "crunches",
+            "situp",
+            "sit-up",
+            "sit up"
+        ],
+        "emoji": "🧘"
+    },
+    "burpee": {
+        "met": 8.0,
+        "category": "Cardio",
+        "muscle_group": "Full Body",
+        "keywords": [
+            "burpee",
+            "burpees"
+        ],
+        "emoji": "🔥"
+    },
+    "running": {
+        "met": 9.8,
+        "category": "Cardio",
+        "muscle_group": "Legs, Cardio",
+        "keywords": [
+            "run",
+            "running",
+            "jog",
+            "jogging",
+            "sprint",
+            "sprinting"
+        ],
+        "emoji": "🏃"
+    },
+    "cycling": {
+        "met": 7.5,
+        "category": "Cardio",
+        "muscle_group": "Legs, Cardio",
+        "keywords": [
+            "cycle",
+            "cycling",
+            "bike",
+            "biking"
+        ],
+        "emoji": "🚴"
+    },
+    "swimming": {
+        "met": 7.0,
+        "category": "Cardio",
+        "muscle_group": "Full Body",
+        "keywords": [
+            "swim",
+            "swimming"
+        ],
+        "emoji": "🏊"
+    },
+    "jump rope": {
+        "met": 11.0,
+        "category": "Cardio",
+        "muscle_group": "Full Body, Cardio",
+        "keywords": [
+            "jump rope",
+            "skipping",
+            "skip"
+        ],
+        "emoji": "🎯"
+    },
+    "yoga": {
+        "met": 2.5,
+        "category": "Flexibility",
+        "muscle_group": "Full Body, Flexibility",
+        "keywords": [
+            "yoga",
+            "stretch",
+            "stretching"
+        ],
+        "emoji": "🧘"
+    },
+    "walking": {
+        "met": 3.5,
+        "category": "Cardio",
+        "muscle_group": "Legs, Cardio",
+        "keywords": [
+            "walk",
+            "walking",
+            "treadmill"
+        ],
+        "emoji": "🚶"
+    },
+    "lunges": {
+        "met": 4.0,
+        "category": "Strength",
+        "muscle_group": "Quads, Glutes",
+        "keywords": [
+            "lunge",
+            "lunges"
+        ],
+        "emoji": "🦵"
+    },
+    "shoulder press": {
+        "met": 5.0,
+        "category": "Strength",
+        "muscle_group": "Shoulders, Triceps",
+        "keywords": [
+            "shoulder press",
+            "overhead press",
+            "ohp"
+        ],
+        "emoji": "💪"
+    },
+    "bicep curl": {
+        "met": 3.5,
+        "category": "Strength",
+        "muscle_group": "Biceps",
+        "keywords": [
+            "curl",
+            "curls",
+            "bicep curl"
+        ],
+        "emoji": "💪"
+    },
+    "tricep dip": {
+        "met": 3.5,
+        "category": "Strength",
+        "muscle_group": "Triceps",
+        "keywords": [
+            "dip",
+            "dips",
+            "tricep dip",
+            "tricep dips"
+        ],
+        "emoji": "💪"
+    },
+    "mountain climber": {
+        "met": 8.0,
+        "category": "Cardio",
+        "muscle_group": "Full Body, Core",
+        "keywords": [
+            "mountain climber",
+            "mountain climbers"
+        ],
+        "emoji": "🔥"
+    },
+    "jumping jacks": {
+        "met": 7.0,
+        "category": "Cardio",
+        "muscle_group": "Full Body",
+        "keywords": [
+            "jumping jack",
+            "jumping jacks"
+        ],
+        "emoji": "⭐"
+    }
+}
