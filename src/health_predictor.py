@@ -87,21 +87,29 @@ def bmi_gauge(bmi: float):
 
 
 def macro_donut(macros: dict, tdee: float):
+    # guard for zero values
+    v_prot  = macros["protein"] * 4
+    v_carbs = macros["carbs"]   * 4
+    v_fat   = macros["fat"]     * 9
+    if v_prot + v_carbs + v_fat == 0:
+        v_prot, v_carbs, v_fat = 1, 1, 1
+
     fig = go.Figure(go.Pie(
         labels=["Protein", "Carbs", "Fat"],
-        values=[macros["protein"] * 4, macros["carbs"] * 4, macros["fat"] * 9],
+        values=[v_prot, v_carbs, v_fat],
         hole=0.60,
         marker=dict(
             colors=["#a29bfe", "#fd79a8", "#fdcb6e"],
             line=dict(color="#0d0d1a", width=2),
         ),
         textfont=dict(color="white"),
-        annotations=[{
-            "text": f"{tdee:.0f}<br>kcal",
-            "font": {"size": 18, "color": "white"},
-            "showarrow": False,
-        }],
     ))
+    fig.add_annotation(
+        text=f"{tdee:.0f}<br>kcal",
+        font={"size": 18, "color": "white"},
+        showarrow=False,
+        x=0.5, y=0.5
+    )
     fig.update_layout(
         paper_bgcolor="rgba(0,0,0,0)",
         legend=dict(font=dict(color="white"), bgcolor="rgba(0,0,0,0)"),
